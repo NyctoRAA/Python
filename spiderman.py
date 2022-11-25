@@ -1,3 +1,5 @@
+#One of "my" first dynamic projects, took the idea from an Yt Video
+
 from turtle import *
 
 speed(13) # Painting speed control
