@@ -1,15 +1,15 @@
 #Rock Paper Scissors 
 import random
-user = str(input('Escolha entre r = rock, p = paper e s = scissors: ')).strip()
-lista_escolhas = ['r', 'p', 's']
-pc = random.choice(lista_escolhas)
-print(f'Você joga {user}')
-print(f'Eu jogo {pc}')
+user = str(input('Choose between r = rock, p = paper e s = scissors: ')).strip()
+list_choices = ['r', 'p', 's']
+pc = random.choice(list_choices)
+print(f'U chose {user}')
+print(f'I chose {pc}')
 if user == pc:
-    print('Empate!')
+    print('Tie!')
 elif user == 'r' and pc == 's' or user == 'p' and pc == 'r' or user == 's' and pc == 'p':
-    print('Você venceu!')
+    print('U won!')
 elif user != 'r' or user != 's' or user != 'p':
-    print('Jogada inválida!')
+    print('Invalid choice!')
 else:
-    print('Eu venci!')
+    print('I won!')
