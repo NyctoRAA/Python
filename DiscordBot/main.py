@@ -23,4 +23,4 @@ async def slash2(interaction: discord.Interaction):
     
   
 
-aclient.run('MTA0NTgzNDE3NTE0OTc4MTA3Mg.Gk3q73.a2Tq9obod8TuUqz9gbvCU7iph_Z1RzHlCI5AKI')
+aclient.run('Put ur token here')
